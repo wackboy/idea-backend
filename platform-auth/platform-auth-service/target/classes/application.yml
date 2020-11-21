@@ -1,0 +1,24 @@
+server:
+  port: 8086
+  tomcat:
+    max-http-post-size: -1
+spring:
+  application:
+    name: auth-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+
+auth:
+  jwt:
+    secret: wackyboy@top.15955176942
+    pubKeyPath: D:\\tmp\\rsa\\rsa.pub
+    priKeyPath: D:\\tmp\\rsa\\rsa.pri
+    expire: 30 # 过期时间，分钟
+    cookieName: WACKYBOY
+    cookieMaxAge: 3000

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-auth/platform-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-auth/platform-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-item/platform-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-item/platform-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-user/platform-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform-user/platform-user-service" charset="UTF-8" />
+  </component>
+</project>

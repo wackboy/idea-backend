@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-auth-service" />
+        <module name="platform-service" />
+        <module name="platform-auth-common" />
+        <module name="platform-user-interface" />
+        <module name="platform-gateway" />
+        <module name="platform-user-service" />
+        <module name="platform-interface" />
+        <module name="platform-register" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="platform-auth" options="-parameters" />
+      <module name="platform-auth-common" options="-parameters" />
+      <module name="platform-auth-service" options="-parameters" />
+      <module name="platform-gateway" options="-parameters" />
+      <module name="platform-interface" options="-parameters" />
+      <module name="platform-item" options="-parameters" />
+      <module name="platform-register" options="-parameters" />
+      <module name="platform-service" options="-parameters" />
+      <module name="platform-user" options="" />
+      <module name="platform-user-interface" options="-parameters" />
+      <module name="platform-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
